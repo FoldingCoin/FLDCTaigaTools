@@ -1,0 +1,118 @@
+ref,subject,description,user_story,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,status,is_iocaine,is_closed,us_order,taskboard_order,attachments,external_reference,tags,watchers,voters,created_date,modified_date,finished_date,Original Estimate,Completed Work,Remaining Work
+70,Infr- August Monthly Meeting,,66,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,strungsafe,Miguel Molina Jr,Unreviewed,False,False,1499613735181,1499613735181,0,,,[],0,2017-07-09 15:22:15.213242+00:00,2017-07-09 15:26:51.691271+00:00,,1,0,1
+71,Infr- Stand-up,,66,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,strungsafe,Miguel Molina Jr,Active,False,False,1499613795890,1499722188681,0,,,[],0,2017-07-09 15:23:15.919418+00:00,2017-07-10 21:42:41.614999+00:00,,0,0.75,0
+72,Infr- August Monthly Meeting,,65,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,hfries,Hunter Fries,Unreviewed,False,False,1499613881521,1499613881522,0,,,[],0,2017-07-09 15:24:41.560129+00:00,2017-07-09 15:26:39.459915+00:00,,1,0,1
+73,Infr- Stand-up,,65,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,hfries,Hunter Fries,Active,False,False,1499613895902,0,0,,,[],0,2017-07-09 15:24:55.931104+00:00,2017-07-20 02:35:55.936680+00:00,,,.5,
+74,Infr- August Monthly Meeting,,64,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499613938992,1499613938992,0,,,[],0,2017-07-09 15:25:39.036545+00:00,2017-07-09 15:25:54.576714+00:00,,1,0,1
+75,Infr- Stand-up,,64,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499613947760,1499613947760,0,,,[],0,2017-07-09 15:25:47.794521+00:00,2017-07-09 15:25:56.724240+00:00,,,,
+76,Dev- Stats Download Planning,,69,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,strungsafe,Miguel Molina Jr,Active,False,False,1499615715100,1499615715100,0,,,[],0,2017-07-09 15:55:15.126745+00:00,2017-07-11 11:44:05.661636+00:00,,35,18,17
+77,Dev- Stats Download Planning,,68,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,hfries,Hunter Fries,Active,False,False,1499615776866,0,0,,,[],0,2017-07-09 15:56:16.896866+00:00,2017-07-20 02:36:12.951626+00:00,,29,3,12
+78,Dev- Stats Download Planning,,67,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,dddaaammmooo,dddaaammmooo,Active,False,False,1499615797342,0,0,,,[],0,2017-07-09 15:56:37.376198+00:00,2017-07-21 05:43:33.058598+00:00,,35,15,20
+79,Infr- Weekly Burn Down,,66,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,strungsafe,Miguel Molina Jr,Active,False,False,1499722188680,1499722188680,0,,,[],0,2017-07-10 21:29:48.714571+00:00,2017-07-10 21:29:48.744892+00:00,,0,2,0
+80,Setup 'download/archive' web server with all required dependencies,"*   Install Ubuntu 16.04 LTS
+*   Install Apache
+*   Install MySQL
+*   Install PHP7 ZTS (thread-safe version)
+*   Setup external DNS record (e.g. http://download.fldc.net)
+*   Setup SSH certificates (LetsEncrypt)",67,August 2017 Sprint,2017-07-02,2017-09-02,dddaaammmooo,dddaaammmooo,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499765157477,1499765157477,0,,,[],0,2017-07-11 09:25:57.509297+00:00,2017-07-24 22:37:38.706320+00:00,,,,
+81,Setup 'stats parsing/storage' web server with all required dependencies,"*   Install Ubuntu 16.04 LTS
+*   Install Apache
+*   Install MySQL
+*   Install PHP7 ZTS (thread-safe version)
+*   Setup external DNS record (e.g. http://stats.fldc.net)
+*   Setup SSH certificates (LetsEncrypt)",67,August 2017 Sprint,2017-07-02,2017-09-02,dddaaammmooo,dddaaammmooo,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499765194304,1499765194304,0,,,[],0,2017-07-11 09:26:34.330200+00:00,2017-07-24 22:37:36.158308+00:00,,,,
+82,Setup MySQL database,"Create database schema creation scripts (migrations)
+
+** Need to finalise schema and document at granular level here:
+
+- Table Names
+- Fields
+- Data Types/Lengths/Nullable
+- Default Values
+- Primary/Foreign Keys
+- Indexes
+
+### Download/Archive Server Schema
+
+Table Name: downloads
+
+- PK: id - int(11) NOT NULL AUTOINCREMENT
+- filename: varchar(1024) NOT NULL
+- filesize: int NOT NULL
+- timestamp: int NOT NULL
+- downloaded_at: datetime NOT NULL
+- validated_at: datetime
+- imported_at: datetime
+- deleted_at datetime
+
+### Parsing Server Schema
+
+** Insert table structure from existing story",67,August 2017 Sprint,2017-07-02,2017-09-02,dddaaammmooo,dddaaammmooo,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499765212174,1499765212174,0,,,[],0,2017-07-11 09:26:52.212372+00:00,2017-07-24 22:37:32.802955+00:00,,,,
+83,Setup Git repository,"Creation of two Git repositories to hold code for each server
+
+- Download server code
+- Parsing/Statistics server code
+
+Into each repository setup boilerplate code
+
+- Setup directory structure
+- Install chosen PHP backend framework
+- Setup common configuration items (eg. Application names, Default DB Setup)",67,August 2017 Sprint,2017-07-02,2017-09-02,dddaaammmooo,dddaaammmooo,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499765290724,1499765290724,0,,,[],0,2017-07-11 09:28:10.758827+00:00,2017-07-24 22:37:34.502665+00:00,,,,
+84,Scheduled Task: Download and store latest statistics file from Standford server,"Create a PHP scheduled task that also be called via command-line.
+
+- Task schedule should be stored in the database
+- Download latest user statistics file from Stanford University
+ - Allow for multiple user-defined download URL's in the database
+- Server will attempt to download in a round-robin until it finds a working URL
+-- If all URLs are exhausted and none worked, email should be sent to administrator
+- Downloaded files should be moved to a 'pending' folder for consumption by separate decompression/validation task",67,August 2017 Sprint,2017-07-02,2017-09-02,dddaaammmooo,dddaaammmooo,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499767710119,1499767710120,0,,,[],0,2017-07-11 10:08:30.147012+00:00,2017-07-24 22:37:30.909706+00:00,,,,
+85,Scheduled Task: Decompress and validate contents of pending downloaded files,,67,August 2017 Sprint,2017-07-02,2017-09-02,dddaaammmooo,dddaaammmooo,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499767731741,1499767731741,0,,,[],0,2017-07-11 10:08:51.775712+00:00,2017-07-24 22:37:28.050733+00:00,,,,
+86,API Call: Download next statistics file (after timestamp),,67,August 2017 Sprint,2017-07-02,2017-09-02,dddaaammmooo,dddaaammmooo,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499767796413,1499767796413,0,,,[],0,2017-07-11 10:09:56.452622+00:00,2017-07-24 22:37:26.037583+00:00,,,,
+87,API Call: Download most recent statistics file,,67,August 2017 Sprint,2017-07-02,2017-09-02,dddaaammmooo,dddaaammmooo,dddaaammmooo,dddaaammmooo,Unreviewed,False,False,1499767902291,1499767902291,0,,,[],0,2017-07-11 10:11:42.318630+00:00,2017-07-24 22:37:23.764218+00:00,,,,
+89,discussing with Robert about the main structure,,31,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1499974642173,1499974642173,0,,,[],0,2017-07-13 19:37:22.221973+00:00,2017-07-31 21:01:46.390574+00:00,2017-07-31 21:01:46.399850+00:00,0,1,0
+90,Request the texts files from Robert,,31,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Active,False,False,1499974696032,1499974696032,0,,,[],0,2017-07-13 19:38:16.072630+00:00,2017-07-14 04:18:53.951543+00:00,,0,,
+91,Create the menus and texts contents,,31,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Active,False,False,1499974731614,1499974731614,0,,,[],0,2017-07-13 19:38:51.653780+00:00,2017-07-31 21:03:15.508732+00:00,,0,,
+92,Create new slack channel,,47,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1499974764681,1499974764681,0,,,[],0,2017-07-13 19:39:24.737443+00:00,2017-07-14 04:16:40.053712+00:00,2017-07-14 04:16:40.059953+00:00,0,0.2,0
+93,Request ideas from devs,,47,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1499974801955,1499974801955,0,,,[],0,2017-07-13 19:40:02.009696+00:00,2017-07-29 19:27:11.569586+00:00,2017-07-29 19:27:11.575256+00:00,0,,
+94,Make corrections on stories if some technical idea comes in,,47,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1499974892135,1499974892135,0,,,[],0,2017-07-13 19:41:32.172447+00:00,2017-07-29 19:27:16.710506+00:00,2017-07-29 19:27:16.716583+00:00,0,,
+95,get some more catchy tittles,,49,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1499974978142,1499974978142,0,,,[],0,2017-07-13 19:42:58.175107+00:00,2017-07-29 19:25:55.869024+00:00,2017-07-29 19:25:55.875445+00:00,0,,
+96,"Make the model in 3ds Max, export to obj",,49,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1499975126997,1499975126999,0,,,[],0,2017-07-13 19:45:27.040410+00:00,2017-07-18 19:23:46.131570+00:00,2017-07-18 19:23:46.137672+00:00,0,20,0
+97,"import obj to AE and finalize the project with camera movements, floating tittles, special effects",,49,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1499975229116,1499975229116,0,,,[],0,2017-07-13 19:47:09.158544+00:00,2017-07-29 19:26:31.868111+00:00,2017-07-29 19:26:31.873807+00:00,0,18,0
+98,add texts to the proper modules,,50,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Unreviewed,False,False,1499975348714,1499975348714,0,,,[],0,2017-07-13 19:49:08.743760+00:00,2017-07-13 22:49:57.362585+00:00,,0,,
+99,make the modul naming clear and reasonable,,50,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Unreviewed,False,False,1499975436003,1499975436004,0,,,[],0,2017-07-13 19:50:36.047936+00:00,2017-07-13 22:49:59.105674+00:00,,0,,
+100,Upload the filesystem to the test website ftp,,51,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Unreviewed,False,False,1499975533739,1499975533739,0,,,[],0,2017-07-13 19:52:13.771976+00:00,2017-07-13 22:48:56.450281+00:00,,0,,
+101,Upload the database through cpanel,,51,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Unreviewed,False,False,1499975575295,1499975575295,0,,,[],0,2017-07-13 19:52:55.323194+00:00,2017-07-13 22:48:51.478062+00:00,,0,,
+102,announce the test servers to devs,,51,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Unreviewed,False,False,1499975592847,1499975592847,0,,,[],0,2017-07-13 19:53:12.884473+00:00,2017-07-13 22:48:48.947390+00:00,,0,,
+103,Upload the filesystem to the test website ftp,,53,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499975704724,1499975704725,0,,,[],0,2017-07-13 19:55:04.764719+00:00,2017-07-13 20:23:36.731576+00:00,,,,
+104,Upload the database through cpanel ,,53,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499975725370,1499975725371,0,,,[],0,2017-07-13 19:55:25.405891+00:00,2017-07-13 19:55:25.431096+00:00,,,,
+105,Announce the test servers to devs,,53,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499975752240,1499975752241,0,,,[],0,2017-07-13 19:55:52.284031+00:00,2017-07-13 19:55:52.328992+00:00,,,,
+106,Adjust every text contents for mobiles/tablets/pc,,54,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499975897136,1499975897136,0,,,[],0,2017-07-13 19:58:17.181427+00:00,2017-07-13 19:58:44.600288+00:00,,,,
+107,Adjust media contents for mobiles/tablets/pc,,54,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499975916948,1499975916948,0,,,[],0,2017-07-13 19:58:37.012835+00:00,2017-07-13 19:58:37.054081+00:00,,,,
+108,Adjust backend codes ,,54,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499975974934,1499975974934,0,,,[],0,2017-07-13 19:59:34.969975+00:00,2017-07-13 19:59:34.998953+00:00,,,,
+109,Discussion with devs about whos gona need to accses for the website,,55,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976062109,1499976062109,0,,,[],0,2017-07-13 20:01:02.151481+00:00,2017-07-13 20:01:02.179712+00:00,,,,
+110,Make proper level of authorizations,,55,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976113138,1499976113138,0,,,[],0,2017-07-13 20:01:53.178477+00:00,2017-07-13 20:01:53.205463+00:00,,,,
+111,Generate random passwords,,55,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976133832,1499976133832,0,,,[],0,2017-07-13 20:02:13.864708+00:00,2017-07-13 20:02:14.179145+00:00,,,,
+112,Add keywords for every page,,56,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976205910,1499976205910,0,,,[],0,2017-07-13 20:03:25.969649+00:00,2017-07-13 20:03:26.009205+00:00,,,,
+113,"Request help from devs, to find the right keywords ""two heads are better than one""",,56,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976269183,1499976269183,0,,,[],0,2017-07-13 20:04:29.211498+00:00,2017-07-13 20:04:29.235628+00:00,,,,
+114,Assign proper devs for the task,,63,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976625571,1499976625571,0,,,[],0,2017-07-13 20:10:25.608747+00:00,2017-07-13 20:10:25.634171+00:00,,,,
+115,Upload the filesystem to the test website ftp,,57,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976665072,1499976665073,0,,,[],0,2017-07-13 20:11:05.109157+00:00,2017-07-13 20:23:59.756282+00:00,,,,
+116,Upload the database through cpanel,,57,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976671875,1499976671875,0,,,[],0,2017-07-13 20:11:11.913800+00:00,2017-07-13 20:11:11.942951+00:00,,,,
+117,Announce the test servers to devs,,57,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976685548,1499976685548,0,,,[],0,2017-07-13 20:11:25.585422+00:00,2017-07-13 20:11:25.611363+00:00,,,,
+118,Resolve all the problems which came in from devs feedback,,57,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976795985,1499976795985,0,,,[],0,2017-07-13 20:13:16.017352+00:00,2017-07-13 20:13:16.042529+00:00,,,,
+119,Upload the filesystem to the test website ftp,,58,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976846066,1499976846066,0,,,[],0,2017-07-13 20:14:06.113814+00:00,2017-07-13 20:23:48.833292+00:00,,,,
+120,Upload the database through cpanel,,58,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976853727,1499976853727,0,,,[],0,2017-07-13 20:14:13.767979+00:00,2017-07-13 20:14:13.798012+00:00,,,,
+121,"If possible, just change the test server dns with the real site",,58,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976912406,1499976912406,0,,,[],0,2017-07-13 20:15:12.472749+00:00,2017-07-13 20:15:12.521848+00:00,,,,
+122,Announce our new website for everybody,,58,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499976916743,1499976916743,0,,,[],0,2017-07-13 20:15:16.779820+00:00,2017-07-13 20:15:16.810635+00:00,,,,
+123,Make a new email for the google analytics,,59,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499977002526,1499977002526,0,,,[],0,2017-07-13 20:16:42.561525+00:00,2017-07-13 20:16:42.585808+00:00,,,,
+124,Setup google analytics,,59,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499977192878,1499977192878,0,,,[],0,2017-07-13 20:19:52.910179+00:00,2017-07-13 20:19:52.931884+00:00,,,,
+125,Setup google translator automatic offering,,59,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499977243078,1499977243078,0,,,[],0,2017-07-13 20:20:43.111046+00:00,2017-07-13 20:20:43.137316+00:00,,,,
+126,Save database and filesystem at least to different place,,60,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499977311019,1499977311019,0,,,[],0,2017-07-13 20:21:51.050568+00:00,2017-07-13 20:21:51.073538+00:00,,,,
+127,Make sure that there are no bugs remain,,62,,,,theknystar,Norbert Sipos,,,Unreviewed,False,False,1499977477550,1499977477550,0,,,[],0,2017-07-13 20:24:37.585385+00:00,2017-07-13 20:25:00.378182+00:00,,,,
+128,Install linux mint to VM,,30,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1500229133180,1500229133180,0,,,[],0,2017-07-16 18:18:53.253505+00:00,2017-07-16 18:18:53.293821+00:00,2017-07-16 18:18:53.298337+00:00,0,4,0
+129,Setup lamp (only local server),,30,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1500229294115,1500229294116,0,,,[],0,2017-07-16 18:21:34.150879+00:00,2017-07-16 18:21:34.184998+00:00,2017-07-16 18:21:34.189366+00:00,0,1,0
+130,Install joomla ,,30,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1500229336374,1500229336374,0,,,[],0,2017-07-16 18:22:16.408556+00:00,2017-07-16 18:22:16.439082+00:00,2017-07-16 18:22:16.442878+00:00,0,1,0
+131,Save VM to pendrive for mobility reasons,,30,August 2017 Sprint,2017-07-02,2017-09-02,theknystar,Norbert Sipos,theknystar,Norbert Sipos,Closed,False,True,1500229468013,1500229468013,0,,,[],0,2017-07-16 18:24:28.056516+00:00,2017-07-16 18:24:28.092319+00:00,2017-07-16 18:24:28.096563+00:00,0,0.5,0
+132,Infr- Coding Standards Wiki Page,,66,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,strungsafe,Miguel Molina Jr,Active,False,False,1500337796145,1500337796145,0,,,[],0,2017-07-18 00:29:56.183979+00:00,2017-07-24 22:33:54.861043+00:00,,0,0.5,0
+142,Infr- Ad-Hoc Meetings,,66,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,strungsafe,Miguel Molina Jr,Active,False,False,1501069793765,1501069793765,0,,,[],0,2017-07-26 11:49:53.799254+00:00,2017-07-26 11:49:59.092063+00:00,,0,1.5,0
+143,Infr- Distribution Review,,66,August 2017 Sprint,2017-07-02,2017-09-02,strungsafe,Miguel Molina Jr,strungsafe,Miguel Molina Jr,Active,False,False,1501330551312,1501330551312,0,,,[],0,2017-07-29 12:15:51.341678+00:00,2017-07-29 12:16:00.287320+00:00,,0,0.5,0
+144,QA Tooling Research,Research to determine QA tooling to be used to test future products.,68,August 2017 Sprint,2017-07-02,2017-09-02,hfries,Hunter Fries,hfries,Hunter Fries,Active,False,False,1501440689354,1501440689354,0,,,[],0,2017-07-30 18:51:29.386370+00:00,2017-07-30 18:51:29.413937+00:00,,,,

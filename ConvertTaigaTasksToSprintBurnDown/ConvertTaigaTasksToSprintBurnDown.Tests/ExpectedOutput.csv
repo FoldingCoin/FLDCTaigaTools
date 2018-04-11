@@ -1,0 +1,66 @@
+status,assigned_to,ref,Work Item Type,subject,Original Estimate,Completed Work,Remaining Work,sprint
+Unreviewed,strungsafe,70,Task,Infr- August Monthly Meeting,1,0,1,August 2017 Sprint
+Active,strungsafe,71,Task,Infr- Stand-up,0,0.75,0,August 2017 Sprint
+Unreviewed,hfries,72,Task,Infr- August Monthly Meeting,1,0,1,August 2017 Sprint
+Active,hfries,73,Task,Infr- Stand-up,,.5,,August 2017 Sprint
+Unreviewed,dddaaammmooo,74,Task,Infr- August Monthly Meeting,1,0,1,August 2017 Sprint
+Unreviewed,dddaaammmooo,75,Task,Infr- Stand-up,,,,August 2017 Sprint
+Active,strungsafe,76,Task,Dev- Stats Download Planning,35,18,17,August 2017 Sprint
+Active,hfries,77,Task,Dev- Stats Download Planning,29,3,12,August 2017 Sprint
+Active,dddaaammmooo,78,Task,Dev- Stats Download Planning,35,15,20,August 2017 Sprint
+Active,strungsafe,79,Task,Infr- Weekly Burn Down,0,2,0,August 2017 Sprint
+Unreviewed,dddaaammmooo,80,Task,Setup 'download/archive' web server with all required dependencies,,,,August 2017 Sprint
+Unreviewed,dddaaammmooo,81,Task,Setup 'stats parsing/storage' web server with all required dependencies,,,,August 2017 Sprint
+Unreviewed,dddaaammmooo,82,Task,Setup MySQL database,,,,August 2017 Sprint
+Unreviewed,dddaaammmooo,83,Task,Setup Git repository,,,,August 2017 Sprint
+Unreviewed,dddaaammmooo,84,Task,Scheduled Task: Download and store latest statistics file from Standford server,,,,August 2017 Sprint
+Unreviewed,dddaaammmooo,85,Task,Scheduled Task: Decompress and validate contents of pending downloaded files,,,,August 2017 Sprint
+Unreviewed,dddaaammmooo,86,Task,API Call: Download next statistics file (after timestamp),,,,August 2017 Sprint
+Unreviewed,dddaaammmooo,87,Task,API Call: Download most recent statistics file,,,,August 2017 Sprint
+Closed,theknystar,89,Task,discussing with Robert about the main structure,0,1,0,August 2017 Sprint
+Active,theknystar,90,Task,Request the texts files from Robert,0,,,August 2017 Sprint
+Active,theknystar,91,Task,Create the menus and texts contents,0,,,August 2017 Sprint
+Closed,theknystar,92,Task,Create new slack channel,0,0.2,0,August 2017 Sprint
+Closed,theknystar,93,Task,Request ideas from devs,0,,,August 2017 Sprint
+Closed,theknystar,94,Task,Make corrections on stories if some technical idea comes in,0,,,August 2017 Sprint
+Closed,theknystar,95,Task,get some more catchy tittles,0,,,August 2017 Sprint
+Closed,theknystar,96,Task,"Make the model in 3ds Max, export to obj",0,20,0,August 2017 Sprint
+Closed,theknystar,97,Task,"import obj to AE and finalize the project with camera movements, floating tittles, special effects",0,18,0,August 2017 Sprint
+Unreviewed,theknystar,98,Task,add texts to the proper modules,0,,,August 2017 Sprint
+Unreviewed,theknystar,99,Task,make the modul naming clear and reasonable,0,,,August 2017 Sprint
+Unreviewed,theknystar,100,Task,Upload the filesystem to the test website ftp,0,,,August 2017 Sprint
+Unreviewed,theknystar,101,Task,Upload the database through cpanel,0,,,August 2017 Sprint
+Unreviewed,theknystar,102,Task,announce the test servers to devs,0,,,August 2017 Sprint
+Unreviewed,,103,Task,Upload the filesystem to the test website ftp,,,,
+Unreviewed,,104,Task,"Upload the database through cpanel ",,,,
+Unreviewed,,105,Task,Announce the test servers to devs,,,,
+Unreviewed,,106,Task,Adjust every text contents for mobiles/tablets/pc,,,,
+Unreviewed,,107,Task,Adjust media contents for mobiles/tablets/pc,,,,
+Unreviewed,,108,Task,"Adjust backend codes ",,,,
+Unreviewed,,109,Task,Discussion with devs about whos gona need to accses for the website,,,,
+Unreviewed,,110,Task,Make proper level of authorizations,,,,
+Unreviewed,,111,Task,Generate random passwords,,,,
+Unreviewed,,112,Task,Add keywords for every page,,,,
+Unreviewed,,113,Task,"Request help from devs, to find the right keywords ""two heads are better than one""",,,,
+Unreviewed,,114,Task,Assign proper devs for the task,,,,
+Unreviewed,,115,Task,Upload the filesystem to the test website ftp,,,,
+Unreviewed,,116,Task,Upload the database through cpanel,,,,
+Unreviewed,,117,Task,Announce the test servers to devs,,,,
+Unreviewed,,118,Task,Resolve all the problems which came in from devs feedback,,,,
+Unreviewed,,119,Task,Upload the filesystem to the test website ftp,,,,
+Unreviewed,,120,Task,Upload the database through cpanel,,,,
+Unreviewed,,121,Task,"If possible, just change the test server dns with the real site",,,,
+Unreviewed,,122,Task,Announce our new website for everybody,,,,
+Unreviewed,,123,Task,Make a new email for the google analytics,,,,
+Unreviewed,,124,Task,Setup google analytics,,,,
+Unreviewed,,125,Task,Setup google translator automatic offering,,,,
+Unreviewed,,126,Task,Save database and filesystem at least to different place,,,,
+Unreviewed,,127,Task,Make sure that there are no bugs remain,,,,
+Closed,theknystar,128,Task,Install linux mint to VM,0,4,0,August 2017 Sprint
+Closed,theknystar,129,Task,Setup lamp (only local server),0,1,0,August 2017 Sprint
+Closed,theknystar,130,Task,"Install joomla ",0,1,0,August 2017 Sprint
+Closed,theknystar,131,Task,Save VM to pendrive for mobility reasons,0,0.5,0,August 2017 Sprint
+Active,strungsafe,132,Task,Infr- Coding Standards Wiki Page,0,0.5,0,August 2017 Sprint
+Active,strungsafe,142,Task,Infr- Ad-Hoc Meetings,0,1.5,0,August 2017 Sprint
+Active,strungsafe,143,Task,Infr- Distribution Review,0,0.5,0,August 2017 Sprint
+Active,hfries,144,Task,QA Tooling Research,,,,August 2017 Sprint
